@@ -199,7 +199,7 @@
 
         .product-image {
             width: 100%;
-            height: 250px;
+            height: 450px;
             background: #f8f8f8;
             display: flex;
             align-items: center;
@@ -210,7 +210,7 @@
             overflow: hidden;
         }
 
-        /* Placeholder para imágenes */
+        /* Placeholder para imágenes 
         .product-image::before {
             content: '';
             position: absolute;
@@ -226,6 +226,7 @@
             background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
             opacity: 0.3;
         }
+            */
 
         .product-info {
             padding: 25px;
@@ -400,12 +401,6 @@
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">NUEVA<br>COLECCIÓN</h1>
-            <p class="hero-description">
-                ¿Qué debemos saber sobre este producto?<br>
-                ¿Cómo se fabrica, cuánto cuesta, de qué<br>
-                color y tamaño es? Las mejores<br>
-                descripciones generan más ventas.
-            </p>
         </div>
     </section>
 
@@ -413,11 +408,9 @@
     <section class="filters">
         <div class="container">
             <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="clothing">Ropa</button>
-                <button class="filter-btn" data-filter="accessories">Accesorios</button>
-                <button class="filter-btn" data-filter="men">Hombres</button>
-                <button class="filter-btn" data-filter="women">Mujeres</button>
+                <button class="filter-btn active" data-filter="all">Ver Todo</button>
+                <button class="filter-btn" data-filter="men">Hombre</button>
+                <button class="filter-btn" data-filter="women">Mujer</button>
             </div>
         </div>
     </section>
@@ -429,7 +422,7 @@
                 <!-- Producto 1 - Jean -->
                 <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkplYW4gU3RyYWlnaHQ8L3RleHQ+Cjwvc3ZnPg==" alt="Jean Straight" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/jeanHombre2.webp" alt="Jean Straight" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
                         <div class="product-category">Ropa</div>
@@ -445,7 +438,7 @@
                 <!-- Producto 2 - Camiseta Oversized -->
                 <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkNhbWlzZXRhIE92ZXJzaXplZDwvdGV4dD4KPC9zdmc+" alt="Camiseta Oversized" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/camisetaOversizedMujer1.webp" alt="Camiseta Oversized" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
                         <div class="product-category">Ropa</div>
@@ -461,7 +454,7 @@
                 <!-- Producto 3 - Vestido -->
                 <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPlZlc3RpZG8gTGFyZ288L3RleHQ+Cjwvc3ZnPg==" alt="Vestido Largo" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/vestidoAnimalPrint.webp" alt="Vestido Largo" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
                         <div class="product-category">Ropa</div>
@@ -477,7 +470,7 @@
                 <!-- Producto 4 - Chaqueta -->
                 <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkNoYXF1ZXRhIEJpa2VyPC90ZXh0Pgo8L3N2Zz4=" alt="Chaqueta Biker" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/chaquetaBikerHombre.webp" alt="Chaqueta Biker" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
                         <div class="product-category">Ropa</div>
@@ -493,28 +486,28 @@
                 <!-- Productos adicionales para completar el catálogo -->
                 <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkJ1c28gQsOhc2ljbzwvdGV4dD4KPC9zdmc+" alt="Buso Básico" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/camisetaFitHombre.webp" alt="Buso Básico" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
                         <div class="product-category">Ropa</div>
-                        <h3 class="product-name">Buso Básico Unisex</h3>
-                        <p class="product-description">Sudadera básica de algodón premium. Diseño minimalista para uso diario.</p>
-                        <div class="product-price">$89.900</div>
+                        <h3 class="product-name">Camiseta de cuello redondo para hombre</h3>
+                        <p class="product-description">Confeccionada en algodón liviano y con su silueta de Comfort fit.</p>
+                        <div class="product-price">$49.900</div>
                         <div class="product-action">
                             <button class="btn-view">AGREGAR A LA BOLSA</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="product-card fade-in" data-category="accessories">
+                <div class="product-card fade-in" data-category="clothing">
                     <div class="product-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDMwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjhGOEY4Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiPkdvcnJhIFJpZmxlPC90ZXh0Pgo8L3N2Zz4=" alt="Gorra Rifle" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="/css/cargoMujer.webp" alt="Gorra Rifle" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Accesorios</div>
-                        <h3 class="product-name">Gorra Rifle Signature</h3>
-                        <p class="product-description">Gorra clásica con logo bordado de la marca. Ajustable y cómoda.</p>
-                        <div class="product-price">$45.900</div>
+                        <div class="product-category">Ropa</div>
+                        <h3 class="product-name">Jean Cargo en black denim para mujer</h3>
+                        <p class="product-description">Confeccionado en denim liviano color negro con fijado de color.</p>
+                        <div class="product-price">$199.900</div>
                         <div class="product-action">
                             <button class="btn-view">AGREGAR A LA BOLSA</button>
                         </div>
